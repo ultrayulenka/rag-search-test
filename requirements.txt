@@ -1,0 +1,19 @@
+# RAG PDF System - Python 3.11+
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# LangChain (0.3.x not on PyPI; use 0.2.x)
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-text-splitters>=0.2.0
+langchain-chroma>=0.1.0
+
+# PDF & vector DB
+pypdf>=4.0.0
+chromadb>=0.4.0
+# Use bundled SQLite >= 3.35 when system sqlite3 is older (e.g. WSL)
+pysqlite3-binary

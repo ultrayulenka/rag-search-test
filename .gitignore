@@ -25,6 +25,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+Python-3.11.0
+data/pdfs/
+chroma_db/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
